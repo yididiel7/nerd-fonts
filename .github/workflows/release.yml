@@ -279,7 +279,7 @@ jobs:
 
       - name: Download patched fonts from build
         id: download-patched-fonts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: patched-fonts
           path: .
